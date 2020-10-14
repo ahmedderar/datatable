@@ -38,6 +38,7 @@ export default class ColumnManager {
 
         this.$filterRow = $('.dt-row-filter', this.header);
         if (this.$filterRow) {
+            this.fireEvent('onFilterRows');
             $.style(this.$filterRow, { display: 'none' });
         }
         // reset columnMap
