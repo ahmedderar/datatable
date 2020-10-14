@@ -36,6 +36,7 @@ export default {
         onSwitchColumn(column1, column2) {},
         onSortColumn(column) {},
         onCheckRow(row) {},
+         onFilterRows() {},
         onDestroy() {}
     },
     hooks: {
